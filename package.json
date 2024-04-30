@@ -4,9 +4,11 @@
     "description": "A simple logo generator",
     "main": "index.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "author": "Your Name",
-    "license": "ISC"
-  }
-  
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^9.2.20"
+    }
+}
